@@ -26,7 +26,7 @@ const obtenerConsejo = async () => {
 
         // 2.1 Utiliza 'fetch' para llamar a la API. Recuerda usar 'await' ya que fetch devuelve una promesa.
         // TODO: const respuesta = ...
-        const resuesta = await fetch('https://api.adviceslip.com/advice');
+        const respuesta = await fetch('https://api.adviceslip.com/advice');
         
         // 2.2 Convierte la respuesta a formato JSON. También requiere 'await' ya que es una promesa.
         // TODO: const data = ...
